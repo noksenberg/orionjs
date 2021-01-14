@@ -844,15 +844,16 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@orion-js/app@^0.19.7":
-  version "0.19.7"
-  resolved "https://registry.yarnpkg.com/@orion-js/app/-/app-0.19.7.tgz#4f120f3d3a9ab6bd664cfaebb8765d7dd5692369"
-  integrity sha512-8U0U3w1VFby+9ccv8xzLHqUkrh1kovV7kiHzOBci6y198bimb5BYw0BrkkH6cDSu5608+Re+/91RS9Ku+KzIbg==
+"@orion-js/app@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@orion-js/app/-/app-1.1.0.tgz#09260db0b19bd5c6f9c71896c06d527f4e0a5951"
+  integrity sha512-nX0In/iY6ov70hS+MybcwqqtGfNrOJomdCFspreFG/+yRoebVSs4SGbG5HtV2dpVdQj0KJef+5zlFzQWa8/cAA==
   dependencies:
     "@babel/polyfill" "^7.4.4"
-    "@orion-js/schema" "^0.19.2"
+    "@orion-js/schema" "^1.0.0"
     async-exit-hook "^2.0.1"
     colors "^1.3.3"
+    dataloader "^2.0.0"
     dot-object "^1.9.0"
     micro "^9.3.4"
     mongodb "3.5.2"
@@ -860,10 +861,10 @@
     path-match "^1.2.4"
     path-to-regexp "^3.0.0"
 
-"@orion-js/schema@^0.19.2":
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/@orion-js/schema/-/schema-0.19.2.tgz#a86208089d33cd6151ddd8d0eff1fac6b2cd2038"
-  integrity sha512-hGQc7Xl1kYiHJUYZbjbv4a46v6biQ1Ge2Url9uiVM1cU4uAV14jHkmRqVOrqhsuvQVZJ7HV7Hz4RHiSJa+3h8g==
+"@orion-js/schema@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@orion-js/schema/-/schema-1.0.0.tgz#63d43fa628923d4b54ae7dbf59f661ae92628899"
+  integrity sha512-81Fqp4fQizyZD/+47KEDxUfVllgrIuMBC7WiD7Xtst/AuJjwcDWSyizCMLz28sEc4o8ru8J/5QSx547zFmPtSA==
   dependencies:
     dot-object "^1.7.0"
     lodash "^4.17.10"
@@ -1638,6 +1639,11 @@ data-urls@^1.0.0:
     abab "^1.0.4"
     whatwg-mimetype "^2.0.0"
     whatwg-url "^6.4.0"
+
+dataloader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-2.0.0.tgz#41eaf123db115987e21ca93c005cd7753c55fe6f"
+  integrity sha512-YzhyDAwA4TaQIhM5go+vCLmU0UikghC/t9DTQYZR2M/UvZ1MdOhPezSDZcjj9uqQJOMqjLcpWtyW2iNINdlatQ==
 
 debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -2475,8 +2481,9 @@ inherits@2.0.1:
   integrity sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=
 
 ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
